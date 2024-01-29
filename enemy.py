@@ -27,3 +27,10 @@ class Enemy():
     
     def die(self):
         print(f'{self.name} died!')
+
+ENEMYS = [
+    Enemy('Slime', 1, 10, 10, 7, 0),
+    Enemy('Goblin', 3, 40, 20, 13, 4),
+    Enemy('Orc', 5, 100, 50, 21, 6),
+    Enemy('Dragon', 15, 1000, 500, 43, 23),
+]
